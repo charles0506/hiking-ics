@@ -307,7 +307,48 @@ def build_ics(rows, stamp, calname):
     return "\r\n".join(lines) + "\r\n"
 
 
+def dump(keyword=None):
+    """列出每個商品的所有梯次（含 0 人報名和已額滿的），不寫檔。
+
+    ICS 只收「有人報名但未滿」的梯次，所以問「某個連假還有什麼團」
+    這種問題時 data.json 不夠用 —— 滿額（0 人報名）的梯次不在裡面。
+    keyword 可以是行程名或日期片段，例如 10／10 要打 `10/10`。
+    """
+    today = dt.datetime.now(TZ).date()
+    for site in SITES:
+        opener = make_opener()
+        for route in item_routes(opener, site["base"]):
+            prod, url = load_product(opener, site, route)
+            if not prod or not prod["specs"]:
+                continue
+            title = short_title(prod["title"])
+            specs = [(n, q) for n, q in prod["specs"]
+                     if not any(w in n for w in SKIP_WORDS)]
+            if not specs:
+                continue
+            counts = Counter(q for _, q in specs)
+            base = max(counts.items(), key=lambda kv: (kv[1], kv[0]))[0]
+            shown = [(n, q) for n, q in specs
+                     if not keyword
+                     or keyword in title
+                     or keyword in n.replace("／", "/")]
+            if not shown:
+                continue
+            print(f"\n[{site['name']}] {title}  基準{base}  {url}")
+            for n, q in shown:
+                d = parse_dates(n, today)
+                mark = "額滿" if q == 0 else ("空團" if q >= base else f"已{base - q}人")
+                when = f"{d[0]}~{d[1]}" if d else "日期解不出"
+                print(f"   剩{q:>2}  {mark:<6} {when}  {n}")
+            time.sleep(0.4)
+
+
 def main():
+    if "--dump" in sys.argv:
+        i = sys.argv.index("--dump")
+        dump(sys.argv[i + 1] if len(sys.argv) > i + 1 else None)
+        return
+
     stamp = dt.datetime.now(TZ)
     today = stamp.date()
 

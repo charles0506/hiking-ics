@@ -1,0 +1,42 @@
+name: 更新補位行事曆
+
+on:
+  schedule:
+    # 台灣時間 06:10 / 12:10 / 18:10（GitHub cron 走 UTC）
+    - cron: "10 22 * * *"
+    - cron: "10 4 * * *"
+    - cron: "10 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-ics
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓名額、產生 ICS
+        run: python build_ics.py
+
+      - name: 有變動才 commit
+        run: |
+          git config user.name "hiking-ics bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # data.json 每次都會因為 updated 時間戳而變，所以看 ics 有沒有實質變動
+          if git diff --quiet -- docs/hiking.ics; then
+            echo "名額沒變，不 commit"
+          else
+            git add docs/hiking.ics docs/data.json
+            git commit -m "更新名額 $(date -u -d '+8 hours' '+%Y-%m-%d %H:%M')"
+            git push
+          fi

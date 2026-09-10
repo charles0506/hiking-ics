@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>荒野旅人 補位行事曆</title>
+<style>
+  :root{
+    --ground:#F4F6F3; --surface:#fff; --ink:#17201B; --ink-2:#4A574E; --ink-3:#7C8A81;
+    --line:#D8DED6; --accent:#2F5E43; --crit:#A93B23;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--ground:#101613;--surface:#182019;--ink:#E6EDE7;--ink-2:#A9B7AC;--ink-3:#7B8A7E;
+          --line:#2A362C;--accent:#7FC095;--crit:#E8836A;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);
+       font:15px/1.65 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+  h1{font-size:28px;margin:0 0 6px;letter-spacing:.01em}
+  .sub{color:var(--ink-2);margin:0 0 28px}
+  h2{font-size:17px;margin:32px 0 8px}
+  .url{display:block;background:var(--surface);border:1px solid var(--line);
+       padding:14px 16px;font:13px/1.5 ui-monospace,Consolas,monospace;
+       word-break:break-all;color:var(--accent);text-decoration:none}
+  ol{padding-left:20px;color:var(--ink-2)}
+  ol b{color:var(--ink)}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px}
+  th{text-align:left;font-size:12px;color:var(--ink-3);font-weight:500;
+     border-bottom:1px solid var(--line);padding:6px 8px 6px 0}
+  td{padding:7px 8px 7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  td.n{font:600 14px/1.4 ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums;
+       white-space:nowrap;text-align:right}
+  .hot{color:var(--crit)}
+  td a{color:inherit;text-decoration:none}
+  td a:hover{text-decoration:underline}
+  .when{font:13px/1.4 ui-monospace,Consolas,monospace;color:var(--ink-2);white-space:nowrap}
+  .note{color:var(--ink-3);font-size:13px;margin-top:24px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>荒野旅人 補位行事曆</h1>
+  <p class="sub">已經有人報名、但還沒滿的登山梯次。進這些團是補位，不用當開團第一人。</p>
+
+  <h2>訂閱網址</h2>
+  <a class="url" id="ics" href="hiking.ics">hiking.ics</a>
+
+  <h2>Google 行事曆怎麼加</h2>
+  <ol>
+    <li>左側「其他日曆」旁的 <b>＋</b> → <b>以網址訂閱</b></li>
+    <li>貼上上面那串網址 → 新增日曆</li>
+    <li>手機不用再設定一次，訂閱跟著帳號走</li>
+  </ol>
+
+  <h2>目前的補位梯次 <span id="count" style="color:var(--ink-3);font-weight:400"></span></h2>
+  <table id="tbl"><thead><tr><th>日期</th><th>行程</th><th style="text-align:right">名額</th></tr></thead><tbody></tbody></table>
+
+  <p class="note" id="stamp"></p>
+  <p class="note" style="border:0;padding-top:0">
+    名額每天更新三次，但 Google 抓外部行事曆的頻率自己決定（通常好幾小時到一天），
+    所以行事曆上的數字會落後。看到剩 1–2 的直接點進商品頁確認。
+  </p>
+</div>
+<script>
+  document.getElementById('ics').textContent = location.origin + location.pathname.replace(/[^/]*$/, '') + 'hiking.ics';
+  fetch('data.json').then(r => r.json()).then(d => {
+    document.getElementById('count').textContent = '共 ' + d.count + ' 梯';
+    document.getElementById('stamp').textContent = '名額抓取時間：' + d.updated.slice(0, 16).replace('T', ' ') + ' (UTC+8)';
+    const f = s => s.slice(5).replace('-', '/');
+    document.querySelector('#tbl tbody').innerHTML = d.trips.map(t =>
+      '<tr><td class="when">' + f(t.start) + (t.end !== t.start ? '–' + f(t.end) : '') + '</td>' +
+      '<td><a href="' + t.url + '" target="_blank" rel="noopener">' + t.title + '</a></td>' +
+      '<td class="n' + (t.stock <= 2 ? ' hot' : '') + '">剩 ' + t.stock +
+      ' <span style="color:var(--ink-3);font-weight:400">/' + t.base + '</span></td></tr>').join('');
+  }).catch(() => {
+    document.getElementById('count').textContent = '（讀不到 data.json）';
+  });
+</script>
+</body>
+</html>

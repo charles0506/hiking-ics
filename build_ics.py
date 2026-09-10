@@ -166,7 +166,9 @@ def load_product(opener, site, route):
 
 
 DATE_HEAD = re.compile(r"(?:(\d{4})/)?(\d{1,2})/(\d{1,2})")
-DATE_TAIL = re.compile(r"-\s*(?:(\d{4})/)?(?:(\d{1,2})/)?(\d{1,2})")
+# 結束日必須緊接在出發日後面（中間只容許星期括號和空白），不能往後隨便找。
+# 否則 368 課程「9/16平日 / 晚上場19-22」的上課時間 19-22 會被當成「到 22 號」。
+DATE_TAIL = re.compile(r"\s*(?:\([^)]*\))?\s*-\s*(?:(\d{4})/)?(?:(\d{1,2})/)?(\d{1,2})")
 
 
 def parse_dates(size_name, today):
@@ -203,7 +205,7 @@ def parse_dates(size_name, today):
             return None
 
     end = start
-    tail = DATE_TAIL.search(s[head.end():])
+    tail = DATE_TAIL.match(s[head.end():])
     if tail:
         ey = int(tail.group(1)) if tail.group(1) else start.year
         emo = int(tail.group(2)) if tail.group(2) else start.month

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>荒野旅人 補位行事曆</title>
+<title>登山團補位行事曆</title>
 <style>
   :root{
     --ground:#F4F6F3; --surface:#fff; --ink:#17201B; --ink-2:#4A574E; --ink-3:#7C8A81;
@@ -40,11 +40,15 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>荒野旅人 補位行事曆</h1>
-  <p class="sub">已經有人報名、但還沒滿的登山梯次。進這些團是補位，不用當開團第一人。</p>
+  <h1>登山團補位行事曆</h1>
+  <p class="sub">荒野旅人 × 台灣三六八，已經有人報名、但還沒滿的登山梯次。
+  進這些團是補位，不用當開團第一人。</p>
 
   <h2>訂閱網址</h2>
   <a class="url" id="ics" href="hiking.ics">hiking.ics</a>
+  <p style="color:var(--ink-3);font-size:13px;margin:8px 0 0">
+    只要單一站台：<a href="hiking-wild.ics" style="color:var(--accent)">hiking-wild.ics</a>（荒野旅人）／
+    <a href="hiking-368.ics" style="color:var(--accent)">hiking-368.ics</a>（台灣三六八）</p>
 
   <h2>Google 行事曆怎麼加</h2>
   <ol>
@@ -54,7 +58,7 @@
   </ol>
 
   <h2>目前的補位梯次 <span id="count" style="color:var(--ink-3);font-weight:400"></span></h2>
-  <table id="tbl"><thead><tr><th>日期</th><th>行程</th><th style="text-align:right">名額</th></tr></thead><tbody></tbody></table>
+  <table id="tbl"><thead><tr><th>日期</th><th>來源</th><th>行程</th><th style="text-align:right">名額</th></tr></thead><tbody></tbody></table>
 
   <p class="note" id="stamp"></p>
   <p class="note" style="border:0;padding-top:0">
@@ -70,6 +74,7 @@
     const f = s => s.slice(5).replace('-', '/');
     document.querySelector('#tbl tbody').innerHTML = d.trips.map(t =>
       '<tr><td class="when">' + f(t.start) + (t.end !== t.start ? '–' + f(t.end) : '') + '</td>' +
+      '<td class="when">' + t.site_name + '</td>' +
       '<td><a href="' + t.url + '" target="_blank" rel="noopener">' + t.title + '</a></td>' +
       '<td class="n' + (t.stock <= 2 ? ' hot' : '') + '">剩 ' + t.stock +
       ' <span style="color:var(--ink-3);font-weight:400">/' + t.base + '</span></td></tr>').join('');

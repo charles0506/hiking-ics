@@ -1,41 +1,61 @@
 #!/usr/bin/env python3
 """
-荒野旅人（travelwildtw.com）補位梯次 → ICS 訂閱行事曆
+登山團補位梯次 → ICS 訂閱行事曆
 
-抓全站商品頁的 Nuxt SSR payload，取出每個梯次的剩餘名額，
-只留「已經有人報名、但還沒滿」的梯次，輸出 docs/hiking.ics。
+抓兩個 BVSHOP 站台的每個梯次剩餘名額，只留「已經有人報名、但還沒滿」的，
+輸出 docs/hiking.ics（合併）與各站單獨的 ics。
 
-用 requests 直接抓商品頁 HTML（不是 API），payload 就內嵌在頁面裡，
-不需要瀏覽器 session。API 端點 /item/query/... 對外會 403，別打那個。
+兩站架構不同，取名額的方式也不同：
+
+  荒野旅人 travelwildtw.com    Nuxt 3 SSR，商品資料內嵌在頁面的 __NUXT_DATA__，
+                              直接抓 HTML 就有，不需要 session。
+
+  台灣三六八 taiwan368368.com.tw  舊版 BVSHOP（Laravel + jQuery），HTML 裡沒有名額，
+                              要打 /item/query/<route>。這個端點直接打回 403，
+                              但先 GET 一次商品頁拿到 session cookie 再帶著打就給 200。
+
+兩邊的 spec 結構一樣：size_name 是梯次日期、quantity 是剩餘名額。
 """
 
+import datetime as dt
+import http.cookiejar
 import json
-from collections import Counter
 import re
 import sys
 import time
-import datetime as dt
+from collections import Counter
 from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
+from urllib.error import HTTPError, URLError
+from urllib.request import HTTPCookieProcessor, Request, build_opener
 
-BASE = "https://travelwildtw.com"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36")
 OUT = Path(__file__).parent / "docs"
 TZ = dt.timezone(dt.timedelta(hours=8))
 
+SITES = [
+    {"key": "wild", "name": "荒野", "base": "https://travelwildtw.com", "mode": "nuxt"},
+    {"key": "368", "name": "368", "base": "https://www.taiwan368368.com.tw", "mode": "query"},
+]
+
 # 這些選項不是固定開團日，沒有成團人數概念
 SKIP_WORDS = ("包團", "私訊", "敬請期待", "規劃中", "額滿", "洽詢", "另享優惠",
-              "Please register", "外籍")
+              "Please register", "外籍", "檔期", "客製")
 
 
-def fetch(url, tries=3):
+def make_opener():
+    """每個站一個 opener，帶自己的 cookie jar —— 368 的名額 API 要 session 才給。"""
+    return build_opener(HTTPCookieProcessor(http.cookiejar.CookieJar()))
+
+
+def fetch(opener, url, referer=None, tries=3):
+    headers = {"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9"}
+    if referer:
+        headers.update({"Referer": referer, "X-Requested-With": "XMLHttpRequest",
+                        "Accept": "application/json, text/plain, */*"})
     for i in range(tries):
         try:
-            req = Request(url, headers={"User-Agent": UA,
-                                        "Accept-Language": "zh-TW,zh;q=0.9"})
-            with urlopen(req, timeout=30) as r:
+            with opener.open(Request(url, headers=headers), timeout=30) as r:
                 return r.read().decode("utf-8", "replace")
         except (URLError, HTTPError) as e:
             if i == tries - 1:
@@ -45,21 +65,22 @@ def fetch(url, tries=3):
     return None
 
 
-def item_routes():
-    """從 sitemap 取商品 route。regex 要含連字號，否則 travelwildtwcomturkey-ski 會被截斷成 404。"""
-    xml = fetch(f"{BASE}/sitemap.xml")
+def item_routes(opener, base):
+    """從 sitemap 取商品 route。regex 要含連字號，
+    否則 travelwildtwcomturkey-ski 這種會被截斷成 404。"""
+    xml = fetch(opener, f"{base}/sitemap.xml")
     if not xml:
-        sys.exit("sitemap 抓不到，中止")
+        print(f"  ! {base} sitemap 抓不到", file=sys.stderr)
+        return []
     return sorted(set(re.findall(r"/item/([A-Za-z0-9\-_]+)", xml)))
 
 
-def parse_product(html):
-    """從 __NUXT_DATA__ (devalue 扁平陣列) 還原商品標題與各梯次名額。
+def parse_nuxt(html):
+    """從 __NUXT_DATA__（devalue 扁平陣列）還原商品標題與各梯次名額。
 
-    devalue 把物件的欄位值存成索引，所以 d['specs'] 拿到的是索引，
-    arr[索引] 才是真正的 list，list 裡每個元素又是索引。
-    注意 prod 本身也有 quantity/size_name 欄位（全商品加總），
-    不能直接掃全陣列找 size_name，會混進那個假數字 —— 要從 prod.specs 走。
+    devalue 把欄位值存成索引：prod['specs'] 拿到的是索引，arr[索引] 才是 list，
+    list 裡每個元素又是索引。注意 prod 本身也有 quantity/size_name（全商品加總的
+    假數字），所以不能掃全陣列找 size_name，要從 prod.specs 走。
     """
     m = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
     if not m:
@@ -74,7 +95,6 @@ def parse_product(html):
     if not prods:
         return None
     prod = prods[0]
-    title = arr[prod["title"]]
     spec_idx = arr[prod["specs"]]
     if not isinstance(spec_idx, list):
         return None
@@ -87,7 +107,33 @@ def parse_product(html):
         name, qty = arr[sp["size_name"]], arr[sp["quantity"]]
         if isinstance(name, str) and isinstance(qty, int):
             specs.append((name, qty))
+    title = arr[prod["title"]]
     return {"title": title if isinstance(title, str) else "", "specs": specs}
+
+
+def parse_query(raw):
+    """368 的 /item/query/<route> 回傳的 JSON。"""
+    try:
+        prod = json.loads(raw)["response"]["prod"]
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return None
+    specs = [(s["size_name"], s["quantity"]) for s in prod.get("specs") or []
+             if isinstance(s.get("size_name"), str) and isinstance(s.get("quantity"), int)]
+    return {"title": prod.get("title") or "", "specs": specs}
+
+
+def load_product(opener, site, route):
+    url = f"{site['base']}/item/{route}"
+    if site["mode"] == "nuxt":
+        html = fetch(opener, url)
+        return (parse_nuxt(html) if html else None), url
+    # query 模式：先開商品頁拿 session cookie，再打名額 API
+    r = route.lower()
+    url = f"{site['base']}/item/{r}"
+    if not fetch(opener, url):
+        return None, url
+    raw = fetch(opener, f"{site['base']}/item/query/{r}", referer=url)
+    return (parse_query(raw) if raw else None), url
 
 
 DATE_HEAD = re.compile(r"(?:(\d{4})/)?(\d{1,2})/(\d{1,2})")
@@ -95,23 +141,26 @@ DATE_TAIL = re.compile(r"-\s*(?:(\d{4})/)?(?:(\d{1,2})/)?(\d{1,2})")
 
 
 def parse_dates(size_name, today):
-    """把梯次名稱解析成 (出發日, 結束日)。解不出來就回 None，寧可漏也不要寫錯日期。
+    """把梯次名稱解析成 (出發日, 結束日)。解不出來回 None —— 寧可漏，也不要寫錯日期。
 
     看過的格式：
-      11／13(五)-11／15(日) D0.11／12      前一晚集合
-      10／19(一)-21(三)                    結束日省略月份
-      12／31(四)-1／3(日)                  跨年
-      2026／12／16(三)-20(日)              明確年份
+      11／13(五)-11／15(日) D0.11／12    前一晚集合
+      10／19(一)-21(三)                  結束日省略月份
+      12／31(四)-1／3(日)                跨年
+      2026／12／16(三)-20(日)            明確年份
     """
     s = size_name.replace("／", "/").replace("（", "(").replace("）", ")")
-    s = s.split("D0")[0].split("*")[0]
+    # D0 是前一晚集合日，不是梯次本身的日期，要整段拿掉。
+    # 荒野寫在後面「11/13(五)-11/15(日) D0.11/12」，368 有時寫在前面
+    # 「D0.10/2(五)_10/3(六)-10/4(日)」—— 用 split("D0") 會把 368 那種切成空字串。
+    s = re.sub(r"D0\.?\s*\d{1,2}/\d{1,2}\s*(?:\([^)]*\))?_?", " ", s)
+    s = s.split("*")[0]
 
     head = DATE_HEAD.search(s)
     if not head:
         return None
     y, mo, d = head.group(1), int(head.group(2)), int(head.group(3))
     year = int(y) if y else today.year
-
     try:
         start = dt.date(year, mo, d)
     except ValueError:
@@ -119,7 +168,10 @@ def parse_dates(size_name, today):
     # 沒寫年份時，若推出來的日期已經過去很久，代表講的是明年
     if not y and (start - today).days < -60:
         year += 1
-        start = dt.date(year, mo, d)
+        try:
+            start = dt.date(year, mo, d)
+        except ValueError:
+            return None
 
     end = start
     tail = DATE_TAIL.search(s[head.end():])
@@ -131,30 +183,31 @@ def parse_dates(size_name, today):
             end = dt.date(ey, emo, ed)
         except ValueError:
             end = start
-        if end < start:                      # 跨年梯次
+        if end < start:                       # 跨年梯次
             try:
                 end = dt.date(ey + 1, emo, ed)
             except ValueError:
                 end = start
+        if (end - start).days > 30:           # 解過頭，當單日處理
+            end = start
     return start, end
 
 
 def short_title(t):
-    """《雲海,絕壁,賞楓之旅》 鳶嘴捎來 一日縱走 → 鳶嘴捎來 一日縱走"""
-    return re.sub(r"^《[^》]*》\s*", "", t).strip()
+    """《雲海,絕壁,賞楓之旅》 鳶嘴捎來 一日縱走 → 鳶嘴捎來 一日縱走
+    368 的標題後面掛英文和品牌名，切到第一個全形直線就好。"""
+    t = re.sub(r"^《[^》]*》\s*", "", t.strip())
+    t = t.split("｜")[0].split("|")[0]
+    return re.sub(r"\s+", " ", t).strip()[:48]
 
 
-def collect():
-    today = dt.datetime.now(TZ).date()
-    routes = item_routes()
-    print(f"sitemap 找到 {len(routes)} 個商品")
+def collect_site(site, today):
+    opener = make_opener()
+    routes = item_routes(opener, site["base"])
+    print(f"[{site['name']}] sitemap {len(routes)} 個商品")
     rows = []
     for n, route in enumerate(routes, 1):
-        url = f"{BASE}/item/{route}"
-        html = fetch(url)
-        if not html:
-            continue
-        prod = parse_product(html)
+        prod, url = load_product(opener, site, route)
         if not prod or not prod["specs"]:
             continue
 
@@ -165,14 +218,14 @@ def collect():
 
         # 滿額基準＝出現次數最多的名額（多數梯次還沒人報名，會停在滿額）。
         # 不能用 max：同商品連假梯次容量常加倍（戒茂斯三天平日 7、連假 14），
-        # 用 max 會把所有 7 人梯次誤判成「已報名 7 人」。次數相同時取大的。
+        # 用 max 會把所有平日梯次誤判成「已報名 7 人」。次數相同時取大的。
         counts = Counter(q for _, q in specs)
         base = max(counts.items(), key=lambda kv: (kv[1], kv[0]))[0]
         if base <= 0:
             continue
 
         for name, q in specs:
-            if q <= 0 or q >= base:          # 額滿/停售，或還沒人報名
+            if q <= 0 or q >= base:           # 額滿/停售，或還沒人報名
                 continue
             dates = parse_dates(name, today)
             if not dates:
@@ -182,6 +235,7 @@ def collect():
             if start < today:
                 continue
             rows.append({
+                "site": site["key"], "site_name": site["name"],
                 "route": route, "url": url,
                 "title": short_title(prod["title"]),
                 "spec": name.strip(),
@@ -189,10 +243,10 @@ def collect():
                 "stock": q, "base": base, "signed": base - q,
                 "single_spec": len(specs) == 1,
             })
-        if n % 10 == 0:
+        if n % 15 == 0:
             print(f"  …{n}/{len(routes)}")
-        time.sleep(0.4)                      # 別打太快
-    rows.sort(key=lambda r: (r["start"], r["stock"]))
+        time.sleep(0.4)                       # 別打太快
+    print(f"[{site['name']}] 補位梯次 {len(rows)}")
     return rows
 
 
@@ -215,14 +269,14 @@ def fold(line):
     return "\r\n".join(out)
 
 
-def build_ics(rows, stamp):
+def build_ics(rows, stamp, calname):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//travelwild-hiking-ics//TW//ZH",
+        "PRODID:-//hiking-ics//TW//ZH",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:荒野旅人 補位梯次",
+        f"X-WR-CALNAME:{calname}",
         "X-WR-CALDESC:已有人報名但尚未成團的梯次。名額為抓取當下的值。",
         "X-WR-TIMEZONE:Asia/Taipei",
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
@@ -238,15 +292,15 @@ def build_ics(rows, stamp):
                 f"名額抓取時間 {stamp.strftime('%Y-%m-%d %H:%M')} (UTC+8)，實際以商品頁為準。")
         lines += [
             "BEGIN:VEVENT",
-            f"UID:{r['route']}-{r['start']}-{r['end']}@travelwild-hiking-ics",
+            f"UID:{r['site']}-{r['route']}-{r['start']}-{r['end']}@hiking-ics",
             f"DTSTAMP:{dtstamp}",
             f"DTSTART;VALUE=DATE:{s.strftime('%Y%m%d')}",
             f"DTEND;VALUE=DATE:{e.strftime('%Y%m%d')}",
-            fold(f"SUMMARY:剩{r['stock']} {esc(r['title'])}"),
+            fold(f"SUMMARY:剩{r['stock']} {esc(r['title'])}｜{r['site_name']}"),
             fold(f"DESCRIPTION:{esc(desc)}"),
             f"URL:{r['url']}",
-            "CATEGORIES:登山補位",
-            "TRANSP:TRANSPARENT",          # 不讓它把你標成忙碌
+            f"CATEGORIES:登山補位,{r['site_name']}",
+            "TRANSP:TRANSPARENT",             # 不讓它把你標成忙碌
             "END:VEVENT",
         ]
     lines.append("END:VCALENDAR")
@@ -255,17 +309,27 @@ def build_ics(rows, stamp):
 
 def main():
     stamp = dt.datetime.now(TZ)
-    rows = collect()
-    print(f"有人報名、未滿的梯次：{len(rows)}")
+    today = stamp.date()
+
+    rows = []
+    for site in SITES:
+        rows += collect_site(site, today)
+    rows.sort(key=lambda r: (r["start"], r["stock"]))
 
     OUT.mkdir(exist_ok=True)
-    (OUT / "hiking.ics").write_text(build_ics(rows, stamp), encoding="utf-8")
+    (OUT / "hiking.ics").write_text(
+        build_ics(rows, stamp, "登山團補位"), encoding="utf-8")
+    for site in SITES:
+        sub = [r for r in rows if r["site"] == site["key"]]
+        (OUT / f"hiking-{site['key']}.ics").write_text(
+            build_ics(sub, stamp, f"登山團補位 {site['name']}"), encoding="utf-8")
     (OUT / "data.json").write_text(json.dumps(
         {"updated": stamp.isoformat(), "count": len(rows), "trips": rows},
         ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"寫出 {OUT/'hiking.ics'}")
-    for r in rows[:10]:
-        print(f"  {r['start']} 剩{r['stock']} {r['title']}")
+
+    print(f"\n合計補位梯次 {len(rows)}，寫出 {OUT/'hiking.ics'}")
+    for r in rows[:12]:
+        print(f"  {r['start']} 剩{r['stock']:>2} [{r['site_name']}] {r['title']}")
 
 
 if __name__ == "__main__":

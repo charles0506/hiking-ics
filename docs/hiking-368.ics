@@ -1,0 +1,603 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hiking-ics//TW//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:登山團補位 368
+X-WR-CALDESC:已有人報名但尚未成團的梯次。名額為抓取當下的值。
+X-WR-TIMEZONE:Asia/Taipei
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:368-hehuan-east-peak-xiaoqilai-hiking-skills-workshop-2026-09-13-2026-09-13@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:剩2 合歡東峰＋小奇萊登山技巧實戰班｜368
+DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：9／13(日)\nhttps://
+ www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-wo
+ rkshop\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品
+ 頁為準。
+URL:https://www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-workshop
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-lightweight-packing-course-2026-09-16-2026-09-22@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260923
+SUMMARY:剩8 368 裝備選購 × 輕量化打包課｜368
+DESCRIPTION:剩 8 位｜已報名 2/10 人\n梯次：台北場 / 9／16
+ 平日 / 晚上場19-22\nhttps://www.taiwan368368.com.tw/item/lightweigh
+ t-packing-course\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際
+ 以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/lightweight-packing-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-course-2026-09-19-2026-09-19@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:剩5 Taiwan368 登山行進技巧初階班｜368
+DESCRIPTION:剩 5 位｜已報名 5/10 人\n梯次：9／19週六(台北)
+ 上午場\nhttps://www.taiwan368368.com.tw/item/hiking-movement-course\n
+ \n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準
+ 。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-course-2026-09-19-2026-09-19@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:剩9 Taiwan368 登山行進技巧初階班｜368
+DESCRIPTION:剩 9 位｜已報名 1/10 人\n梯次：9／19週六(台北)
+ 下午場\nhttps://www.taiwan368368.com.tw/item/hiking-movement-course\n
+ \n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準
+ 。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-practical-course-2026-09-20-2026-09-20@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:剩15 Day2 登山行進技巧實戰班｜368
+DESCRIPTION:剩 15 位｜已報名 5/20 人\n梯次：9／20週日(台北
+ )\nhttps://www.taiwan368368.com.tw/item/hiking-movement-practical-course
+ \n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為
+ 準。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-practical-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68433a62c5b22-2026-09-25-2026-09-27@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:剩4 閂山鈴鳴 - 代辦入園申請三天兩夜中階難度非
+ 單攻｜368
+DESCRIPTION:剩 4 位｜已報名 1/5 人\n梯次：9／25(五)-9／27(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd68433a62c5b22\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd68433a62c5b22
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-lightweight-packing-course-2026-09-25-2026-09-25@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:剩9 368 裝備選購 × 輕量化打包課｜368
+DESCRIPTION:剩 9 位｜已報名 1/10 人\n梯次：台中場 / 9／25
+ 假日 / 下午場14-17\nhttps://www.taiwan368368.com.tw/item/lightweigh
+ t-packing-course\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際
+ 以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/lightweight-packing-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68431cb2de932-2026-09-26-2026-09-27@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:剩4 加羅湖兩天一夜健行露營｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：9／26(六)-9／27(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd68431cb2de932\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd68431cb2de932
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-dgiyaq-bburaw-2026-09-26-2026-09-27@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:剩4 合歡四峰高山入門班兩天一夜｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：9／26(六)-9／27(
+ 日)\nhttps://www.taiwan368368.com.tw/item/dgiyaq-bburaw\n\n名額抓取
+ 時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/dgiyaq-bburaw
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68431d2c1b3d8-2026-09-26-2026-09-27@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:剩5 松蘿湖兩天一夜豪華野營團｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：9／26(六)-9／27(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd68431d2c1b3d8\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd68431d2c1b3d8
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hehuan-east-peak-xiaoqilai-hiking-skills-workshop-2026-09-26-2026-09-26@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:剩5 合歡東峰＋小奇萊登山技巧實戰班｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：9／26(六)\nhttps://
+ www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-wo
+ rkshop\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品
+ 頁為準。
+URL:https://www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-workshop
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-offline-map-field-course-2026-10-01-2026-10-22@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261023
+SUMMARY:剩8 離線地圖戶外實戰課｜368
+DESCRIPTION:剩 8 位｜已報名 2/10 人\n梯次：台北場 / 10／1 /
+  夜間場19-22點\nhttps://www.taiwan368368.com.tw/item/offline-map-fie
+ ld-course\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商
+ 品頁為準。
+URL:https://www.taiwan368368.com.tw/item/offline-map-field-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68431dc955b89-2026-10-03-2026-10-04@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:剩4 南橫三星兩天兩夜｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：D0.10／2(五)_10／3
+ (六)-10／4(日)\nhttps://www.taiwan368368.com.tw/item/pd68431dc955b89\
+ n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為
+ 準。
+URL:https://www.taiwan368368.com.tw/item/pd68431dc955b89
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-course-2026-10-03-2026-10-03@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:剩5 Taiwan368 登山行進技巧初階班｜368
+DESCRIPTION:剩 5 位｜已報名 5/10 人\n梯次：10／3週六(台北)
+ 上午場\nhttps://www.taiwan368368.com.tw/item/hiking-movement-course\n
+ \n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準
+ 。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6841f39e3ddd9-2026-10-03-2026-10-04@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:剩6 眠月線：通往幽靜廢站的森林鐵道探秘之旅｜
+ 368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／3(六)-10／4(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6841f39e3ddd9\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68431d2c1b3d8-2026-10-03-2026-10-04@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:剩6 松蘿湖兩天一夜豪華野營團｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／3(六)-10／4(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd68431d2c1b3d8\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd68431d2c1b3d8
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-course-2026-10-03-2026-10-03@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:剩6 Taiwan368 登山行進技巧初階班｜368
+DESCRIPTION:剩 6 位｜已報名 4/10 人\n梯次：10／3週六(台北)
+ 下午場\nhttps://www.taiwan368368.com.tw/item/hiking-movement-course\n
+ \n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準
+ 。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-practical-course-2026-10-04-2026-10-04@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:剩11 Day2 登山行進技巧實戰班｜368
+DESCRIPTION:剩 11 位｜已報名 9/20 人\n梯次：10／4週日(台北
+ )\nhttps://www.taiwan368368.com.tw/item/hiking-movement-practical-course
+ \n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為
+ 準。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-practical-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD684346a209436-2026-10-09-2026-10-11@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261012
+SUMMARY:剩2 嘉明湖戒茂斯三天兩夜｜368
+DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：10／9(五)-10／11(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd684346a209436\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd684346a209436
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD68431ed24911c-2026-10-09-2026-10-09@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:剩6 高島縱走一日｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／9(五)\nhttps://
+ www.taiwan368368.com.tw/item/pd68431ed24911c\n\n名額抓取時間 2026-
+ 09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd68431ed24911c
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-taiwan-shuiyang-forest-camping-tour-2026-10-10-2026-10-11@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:剩3 水漾森林二天一夜｜368
+DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／10(六)-10／11(
+ 日)\nhttps://www.taiwan368368.com.tw/item/taiwan-shuiyang-forest-campin
+ g-tour\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品
+ 頁為準。
+URL:https://www.taiwan368368.com.tw/item/taiwan-shuiyang-forest-camping-tour
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-dgiyaq-bburaw-2026-10-10-2026-10-11@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:剩5 合歡四峰高山入門班兩天一夜｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／10(六)-10／11(
+ 日)\nhttps://www.taiwan368368.com.tw/item/dgiyaq-bburaw\n\n名額抓取
+ 時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/dgiyaq-bburaw
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842bad171fce-2026-10-16-2026-10-18@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:剩4 嘉明湖山屋三天兩夜｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：10／16(五)-10／18(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD684331548f013-2026-10-16-2026-10-18@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:剩5 北大武山行程 - 代辦申請 中階難度 三天兩夜
+ ｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／16(五)-10／18(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd684331548f013\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd684331548f013
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD697346eee70c2-2026-10-17-2026-10-18@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:剩4 奇萊南華 兩天一夜｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：10／17(六)-10／18(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd697346eee70c2\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd697346eee70c2
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842f74f63765-2026-10-17-2026-10-18@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:剩5 雪山東峰兩天一夜登山團｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／17(六)-10／18(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842f74f63765\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842f74f63765
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-10-21-2026-10-22@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261023
+SUMMARY:剩3 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／21(三)-10／22(
+ 四)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-jiaming-lake-cabin-trek-4d3n-2026-10-22-2026-10-25@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261026
+SUMMARY:剩5 嘉明湖山屋四天三夜｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／22(四)-10／25(
+ 日)\nhttps://www.taiwan368368.com.tw/item/jiaming-lake-cabin-trek-4d3n\
+ n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為
+ 準。
+URL:https://www.taiwan368368.com.tw/item/jiaming-lake-cabin-trek-4d3n
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842bad171fce-2026-10-23-2026-10-25@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261026
+SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／23(五)-10／25(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-dgiyaq-bburaw-2026-10-24-2026-10-25@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:剩5 合歡四峰高山入門班兩天一夜｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／24(六)-10／25(
+ 日)\nhttps://www.taiwan368368.com.tw/item/dgiyaq-bburaw\n\n名額抓取
+ 時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/dgiyaq-bburaw
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-lightweight-packing-course-2026-10-24-2026-10-24@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:剩8 368 裝備選購 × 輕量化打包課｜368
+DESCRIPTION:剩 8 位｜已報名 2/10 人\n梯次：台北場 / 10／24
+ 假日 / 下午場14-17\nhttps://www.taiwan368368.com.tw/item/lightweigh
+ t-packing-course\n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際
+ 以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/lightweight-packing-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-10-26-2026-10-27@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261028
+SUMMARY:剩3 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／26(一)-10／27(
+ 二)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-10-27-2026-10-28@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261029
+SUMMARY:剩6 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／27(二)-10／28(
+ 三)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842bad171fce-2026-10-30-2026-11-01@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／30(五)-11／1(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-10-31-2026-11-01@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:剩2 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：10／31(六)-11／1(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842bad171fce-2026-11-06-2026-11-08@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+SUMMARY:剩3 嘉明湖山屋三天兩夜｜368
+DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：11／6(五)-11／8(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-11-08-2026-11-09@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261110
+SUMMARY:剩5 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／8(日)-11／9(
+ 一)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-11-10-2026-11-11@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261112
+SUMMARY:剩6 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／10(二)-11／11(
+ 三)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-11-14-2026-11-15@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:剩2 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：11／14(六)-11／15(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6841f39e3ddd9-2026-11-14-2026-11-15@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:剩5 眠月線：通往幽靜廢站的森林鐵道探秘之旅｜
+ 368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／14(六)-11／15(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6841f39e3ddd9\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD697346eee70c2-2026-11-14-2026-11-15@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:剩6 奇萊南華 兩天一夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／14(六)-11／15(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd697346eee70c2\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd697346eee70c2
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-PD6842bad171fce-2026-11-20-2026-11-22@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／20(五)-11／22(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-hiking-movement-course-2026-11-21-2026-11-21@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:剩8 Taiwan368 登山行進技巧初階班｜368
+DESCRIPTION:剩 8 位｜已報名 2/10 人\n梯次：11／21週六(高雄
+ )上午場\nhttps://www.taiwan368368.com.tw/item/hiking-movement-course\
+ n\n名額抓取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為
+ 準。
+URL:https://www.taiwan368368.com.tw/item/hiking-movement-course
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-11-28-2026-11-29@hiking-ics
+DTSTAMP:20260910T061314Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:剩5 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／28(六)-11／29(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-10 14:13 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

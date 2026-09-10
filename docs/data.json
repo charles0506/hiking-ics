@@ -1,77 +1,7 @@
 {
- "updated": "2026-09-10T14:16:54.630048+08:00",
- "count": 114,
+ "updated": "2026-09-10T16:49:58.981460+08:00",
+ "count": 98,
  "trips": [
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hehuan-east-peak-xiaoqilai-hiking-skills-workshop",
-   "url": "https://www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-workshop",
-   "title": "合歡東峰＋小奇萊登山技巧實戰班",
-   "spec": "9／13(日)",
-   "start": "2026-09-13",
-   "end": "2026-09-13",
-   "stock": 2,
-   "base": 7,
-   "signed": 5,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "lightweight-packing-course",
-   "url": "https://www.taiwan368368.com.tw/item/lightweight-packing-course",
-   "title": "368 裝備選購 × 輕量化打包課",
-   "spec": "台北場 / 9／16平日 / 晚上場19-22",
-   "start": "2026-09-16",
-   "end": "2026-09-22",
-   "stock": 8,
-   "base": 10,
-   "signed": 2,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-course",
-   "title": "Taiwan368 登山行進技巧初階班",
-   "spec": "9／19週六(台北)上午場",
-   "start": "2026-09-19",
-   "end": "2026-09-19",
-   "stock": 5,
-   "base": 10,
-   "signed": 5,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-course",
-   "title": "Taiwan368 登山行進技巧初階班",
-   "spec": "9／19週六(台北)下午場",
-   "start": "2026-09-19",
-   "end": "2026-09-19",
-   "stock": 9,
-   "base": 10,
-   "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-practical-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-practical-course",
-   "title": "Day2 登山行進技巧實戰班",
-   "spec": "9／20週日(台北)",
-   "start": "2026-09-20",
-   "end": "2026-09-20",
-   "stock": 15,
-   "base": 20,
-   "signed": 5,
-   "single_spec": false
-  },
   {
    "site": "wild",
    "site_name": "荒野",
@@ -81,23 +11,9 @@
    "spec": "9／25(五)-9／27(日)",
    "start": "2026-09-25",
    "end": "2026-09-27",
-   "stock": 4,
+   "stock": 2,
    "base": 7,
-   "signed": 3,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "PD68433a62c5b22",
-   "url": "https://www.taiwan368368.com.tw/item/pd68433a62c5b22",
-   "title": "閂山鈴鳴 - 代辦入園申請三天兩夜中階難度非單攻",
-   "spec": "9／25(五)-9／27(日)",
-   "start": "2026-09-25",
-   "end": "2026-09-27",
-   "stock": 4,
-   "base": 5,
-   "signed": 1,
+   "signed": 5,
    "single_spec": false
   },
   {
@@ -111,20 +27,6 @@
    "end": "2026-09-25",
    "stock": 6,
    "base": 7,
-   "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "lightweight-packing-course",
-   "url": "https://www.taiwan368368.com.tw/item/lightweight-packing-course",
-   "title": "368 裝備選購 × 輕量化打包課",
-   "spec": "台中場 / 9／25假日 / 下午場14-17",
-   "start": "2026-09-25",
-   "end": "2026-09-25",
-   "stock": 9,
-   "base": 10,
    "signed": 1,
    "single_spec": false
   },
@@ -171,20 +73,6 @@
    "single_spec": false
   },
   {
-   "site": "368",
-   "site_name": "368",
-   "route": "hehuan-east-peak-xiaoqilai-hiking-skills-workshop",
-   "url": "https://www.taiwan368368.com.tw/item/hehuan-east-peak-xiaoqilai-hiking-skills-workshop",
-   "title": "合歡東峰＋小奇萊登山技巧實戰班",
-   "spec": "9／26(六)",
-   "start": "2026-09-26",
-   "end": "2026-09-26",
-   "stock": 5,
-   "base": 7,
-   "signed": 2,
-   "single_spec": false
-  },
-  {
    "site": "wild",
    "site_name": "荒野",
    "route": "PD64a67477ea52d",
@@ -196,20 +84,6 @@
    "stock": 6,
    "base": 7,
    "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "offline-map-field-course",
-   "url": "https://www.taiwan368368.com.tw/item/offline-map-field-course",
-   "title": "離線地圖戶外實戰課",
-   "spec": "台北場 / 10／1 / 夜間場19-22點",
-   "start": "2026-10-01",
-   "end": "2026-10-22",
-   "stock": 8,
-   "base": 10,
-   "signed": 2,
    "single_spec": false
   },
   {
@@ -257,20 +131,6 @@
   {
    "site": "368",
    "site_name": "368",
-   "route": "hiking-movement-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-course",
-   "title": "Taiwan368 登山行進技巧初階班",
-   "spec": "10／3週六(台北)上午場",
-   "start": "2026-10-03",
-   "end": "2026-10-03",
-   "stock": 5,
-   "base": 10,
-   "signed": 5,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
    "route": "PD6841f39e3ddd9",
    "url": "https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9",
    "title": "眠月線：通往幽靜廢站的森林鐵道探秘之旅",
@@ -294,34 +154,6 @@
    "stock": 6,
    "base": 7,
    "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-course",
-   "title": "Taiwan368 登山行進技巧初階班",
-   "spec": "10／3週六(台北)下午場",
-   "start": "2026-10-03",
-   "end": "2026-10-03",
-   "stock": 6,
-   "base": 10,
-   "signed": 4,
-   "single_spec": false
-  },
-  {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-practical-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-practical-course",
-   "title": "Day2 登山行進技巧實戰班",
-   "spec": "10／4週日(台北)",
-   "start": "2026-10-04",
-   "end": "2026-10-04",
-   "stock": 11,
-   "base": 20,
-   "signed": 9,
    "single_spec": false
   },
   {
@@ -364,20 +196,6 @@
    "stock": 6,
    "base": 7,
    "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "wild",
-   "site_name": "荒野",
-   "route": "PD64a68994b6aff",
-   "url": "https://travelwildtw.com/item/PD64a68994b6aff",
-   "title": "玉山主峰單攻",
-   "spec": "10／10(六) D0.10／9 *雙十節",
-   "start": "2026-10-10",
-   "end": "2026-10-10",
-   "stock": 2,
-   "base": 7,
-   "signed": 5,
    "single_spec": false
   },
   {
@@ -470,12 +288,26 @@
    "route": "PD649f19becf5eb",
    "url": "https://travelwildtw.com/item/PD649f19becf5eb",
    "title": "玉山主峰 兩天一夜",
+   "spec": "10／14(三)-10／15(四)",
+   "start": "2026-10-14",
+   "end": "2026-10-15",
+   "stock": 13,
+   "base": 14,
+   "signed": 1,
+   "single_spec": false
+  },
+  {
+   "site": "wild",
+   "site_name": "荒野",
+   "route": "PD649f19becf5eb",
+   "url": "https://travelwildtw.com/item/PD649f19becf5eb",
+   "title": "玉山主峰 兩天一夜",
    "spec": "10／15(四)-10／16(五)",
    "start": "2026-10-15",
    "end": "2026-10-16",
-   "stock": 11,
+   "stock": 7,
    "base": 14,
-   "signed": 3,
+   "signed": 7,
    "single_spec": false
   },
   {
@@ -565,23 +397,23 @@
   {
    "site": "wild",
    "site_name": "荒野",
-   "route": "PD649f19becf5eb",
-   "url": "https://travelwildtw.com/item/PD649f19becf5eb",
-   "title": "玉山主峰 兩天一夜",
+   "route": "PD64a1d85e3dfd7",
+   "url": "https://travelwildtw.com/item/PD64a1d85e3dfd7",
+   "title": "奇萊南華 兩天一夜",
    "spec": "10／17(六)-10／18(日)",
    "start": "2026-10-17",
    "end": "2026-10-18",
-   "stock": 13,
+   "stock": 12,
    "base": 14,
-   "signed": 1,
+   "signed": 2,
    "single_spec": false
   },
   {
    "site": "wild",
    "site_name": "荒野",
-   "route": "PD64a1d85e3dfd7",
-   "url": "https://travelwildtw.com/item/PD64a1d85e3dfd7",
-   "title": "奇萊南華 兩天一夜",
+   "route": "PD649f19becf5eb",
+   "url": "https://travelwildtw.com/item/PD649f19becf5eb",
+   "title": "玉山主峰 兩天一夜",
    "spec": "10／17(六)-10／18(日)",
    "start": "2026-10-17",
    "end": "2026-10-18",
@@ -655,9 +487,23 @@
    "spec": "10／22(四)-10／23(五)",
    "start": "2026-10-22",
    "end": "2026-10-23",
-   "stock": 9,
+   "stock": 6,
    "base": 14,
-   "signed": 5,
+   "signed": 8,
+   "single_spec": false
+  },
+  {
+   "site": "wild",
+   "site_name": "荒野",
+   "route": "PD64a535e35ee0a",
+   "url": "https://travelwildtw.com/item/PD64a535e35ee0a",
+   "title": "嘉明湖 三天二夜 全程山屋",
+   "spec": "10／23(五)-10／25(日) *光復節",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "stock": 1,
+   "base": 14,
+   "signed": 13,
    "single_spec": false
   },
   {
@@ -697,23 +543,9 @@
    "spec": "10／23(五)-10／24(六) *光復節",
    "start": "2026-10-23",
    "end": "2026-10-24",
-   "stock": 11,
+   "stock": 7,
    "base": 14,
-   "signed": 3,
-   "single_spec": false
-  },
-  {
-   "site": "wild",
-   "site_name": "荒野",
-   "route": "PD64a535e35ee0a",
-   "url": "https://travelwildtw.com/item/PD64a535e35ee0a",
-   "title": "嘉明湖 三天二夜 全程山屋",
-   "spec": "10／23(五)-10／25(日) *光復節",
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "stock": 11,
-   "base": 14,
-   "signed": 3,
+   "signed": 7,
    "single_spec": false
   },
   {
@@ -733,6 +565,20 @@
   {
    "site": "wild",
    "site_name": "荒野",
+   "route": "PD649f19becf5eb",
+   "url": "https://travelwildtw.com/item/PD649f19becf5eb",
+   "title": "玉山主峰 兩天一夜",
+   "spec": "10／24(六)-10／25(日) *光復節",
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "stock": 3,
+   "base": 14,
+   "signed": 11,
+   "single_spec": false
+  },
+  {
+   "site": "wild",
+   "site_name": "荒野",
    "route": "PD649f0b4a98628",
    "url": "https://travelwildtw.com/item/PD649f0b4a98628",
    "title": "眠月線 兩天一夜",
@@ -742,20 +588,6 @@
    "stock": 5,
    "base": 7,
    "signed": 2,
-   "single_spec": false
-  },
-  {
-   "site": "wild",
-   "site_name": "荒野",
-   "route": "PD649f19becf5eb",
-   "url": "https://travelwildtw.com/item/PD649f19becf5eb",
-   "title": "玉山主峰 兩天一夜",
-   "spec": "10／24(六)-10／25(日) *光復節",
-   "start": "2026-10-24",
-   "end": "2026-10-25",
-   "stock": 5,
-   "base": 14,
-   "signed": 9,
    "single_spec": false
   },
   {
@@ -787,20 +619,6 @@
    "single_spec": false
   },
   {
-   "site": "368",
-   "site_name": "368",
-   "route": "lightweight-packing-course",
-   "url": "https://www.taiwan368368.com.tw/item/lightweight-packing-course",
-   "title": "368 裝備選購 × 輕量化打包課",
-   "spec": "台北場 / 10／24假日 / 下午場14-17",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "stock": 8,
-   "base": 10,
-   "signed": 2,
-   "single_spec": false
-  },
-  {
    "site": "wild",
    "site_name": "荒野",
    "route": "PD64a535e35ee0a",
@@ -809,9 +627,9 @@
    "spec": "10／24(六)-10／26(一) *光復節",
    "start": "2026-10-24",
    "end": "2026-10-26",
-   "stock": 11,
+   "stock": 10,
    "base": 14,
-   "signed": 3,
+   "signed": 4,
    "single_spec": false
   },
   {
@@ -851,9 +669,9 @@
    "spec": "10／26(一)-10／27(二)",
    "start": "2026-10-26",
    "end": "2026-10-27",
-   "stock": 3,
+   "stock": 1,
    "base": 7,
-   "signed": 4,
+   "signed": 6,
    "single_spec": false
   },
   {
@@ -1333,20 +1151,6 @@
    "single_spec": false
   },
   {
-   "site": "368",
-   "site_name": "368",
-   "route": "hiking-movement-course",
-   "url": "https://www.taiwan368368.com.tw/item/hiking-movement-course",
-   "title": "Taiwan368 登山行進技巧初階班",
-   "spec": "11／21週六(高雄)上午場",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "stock": 8,
-   "base": 10,
-   "signed": 2,
-   "single_spec": false
-  },
-  {
    "site": "wild",
    "site_name": "荒野",
    "route": "PD64a535e35ee0a",
@@ -1419,15 +1223,15 @@
   {
    "site": "wild",
    "site_name": "荒野",
-   "route": "PD668ba4d19d0b3",
-   "url": "https://travelwildtw.com/item/PD668ba4d19d0b3",
-   "title": "埃及探索之旅 十三日",
-   "spec": "2026／11／30(一)-12／12(六)",
-   "start": "2026-11-30",
-   "end": "2026-12-12",
-   "stock": 22,
-   "base": 25,
-   "signed": 3,
+   "route": "PD64a1d5f205a20",
+   "url": "https://travelwildtw.com/item/PD64a1d5f205a20",
+   "title": "北大武 三天兩夜",
+   "spec": "12／4(五)-12／6(日)",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "stock": 5,
+   "base": 7,
+   "signed": 2,
    "single_spec": false
   },
   {
@@ -1484,20 +1288,6 @@
    "stock": 13,
    "base": 14,
    "signed": 1,
-   "single_spec": false
-  },
-  {
-   "site": "wild",
-   "site_name": "荒野",
-   "route": "PD65a5f3241a467",
-   "url": "https://travelwildtw.com/item/PD65a5f3241a467",
-   "title": "白馬村滑雪教學 五天四夜",
-   "spec": "2026／12／16(三)-20(日)",
-   "start": "2026-12-16",
-   "end": "2026-12-20",
-   "stock": 8,
-   "base": 10,
-   "signed": 2,
    "single_spec": false
   },
   {
@@ -1581,20 +1371,6 @@
    "end": "2027-01-03",
    "stock": 5,
    "base": 7,
-   "signed": 2,
-   "single_spec": false
-  },
-  {
-   "site": "wild",
-   "site_name": "荒野",
-   "route": "PD69ca3788808f9",
-   "url": "https://travelwildtw.com/item/PD69ca3788808f9",
-   "title": "吉力馬扎羅山與雙國家公園探險 14 日",
-   "spec": "2027／3／11(四) - 3／24(三)",
-   "start": "2027-03-11",
-   "end": "2027-03-24",
-   "stock": 13,
-   "base": 15,
    "signed": 2,
    "single_spec": false
   }

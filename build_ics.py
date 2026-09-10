@@ -34,13 +34,24 @@ OUT = Path(__file__).parent / "docs"
 TZ = dt.timezone(dt.timedelta(hours=8))
 
 SITES = [
-    {"key": "wild", "name": "荒野", "base": "https://travelwildtw.com", "mode": "nuxt"},
+    {"key": "wild", "name": "荒野", "base": "https://travelwildtw.com", "mode": "nuxt",
+     # 只要台灣的團。海外團全掛在這個分類底下（滑雪、埃及、吉力馬扎羅、日本各線…），
+     # 用分類排除比用關鍵字可靠 —— 新開的海外團會自動跟著被排掉。
+     "exclude_categories": ["overseas-hiking-tours"]},
     {"key": "368", "name": "368", "base": "https://www.taiwan368368.com.tw", "mode": "query"},
+    # 368 沒有海外分類，全部都是台灣線，不用排
 ]
 
 # 這些選項不是固定開團日，沒有成團人數概念
 SKIP_WORDS = ("包團", "私訊", "敬請期待", "規劃中", "額滿", "洽詢", "另享優惠",
               "Please register", "外籍", "檔期", "客製")
+
+# 商品標題含這些字就整個商品跳過 —— 這份行事曆只要登山團，不要課程。
+#   課        368 的裝備選購×輕量化打包課、離線地圖戶外實戰課
+#   行進技巧  368 的登山行進技巧初階班、Day2 實戰班
+# 合歡四峰高山入門班是刻意留著的：名字有「班」但實際是兩天一夜上合歡群峰。
+# 海外團不靠標題排除，走分類（見 SITES 的 exclude_categories）。
+SKIP_TITLE = ("課", "行進技巧")
 
 
 def make_opener():
@@ -73,6 +84,24 @@ def item_routes(opener, base):
         print(f"  ! {base} sitemap 抓不到", file=sys.stderr)
         return []
     return sorted(set(re.findall(r"/item/([A-Za-z0-9\-_]+)", xml)))
+
+
+def category_routes(opener, base, cat):
+    """某個分類底下的所有商品 route。分類頁是 server-side 分頁，每頁 12 筆，
+    ?page=N 直接吐該頁的 HTML（頁碼按鈕本身是 JS 的，但參數版是 SSR）。"""
+    routes, page = set(), 1
+    while page <= 12:
+        url = f"{base}/category/{cat}" + ("" if page == 1 else f"?page={page}")
+        html = fetch(opener, url)
+        if not html:
+            break
+        found = set(re.findall(r"/item/([A-Za-z0-9\-_]+)", html))
+        if not found - routes:          # 這頁沒有新東西，翻完了
+            break
+        routes |= found
+        page += 1
+        time.sleep(0.3)
+    return routes
 
 
 def parse_nuxt(html):
@@ -204,13 +233,21 @@ def short_title(t):
 def collect_site(site, today):
     opener = make_opener()
     routes = item_routes(opener, site["base"])
-    print(f"[{site['name']}] sitemap {len(routes)} 個商品")
+    excluded = set()
+    for cat in site.get("exclude_categories", []):
+        excluded |= category_routes(opener, site["base"], cat)
+    if excluded:
+        routes = [r for r in routes if r not in excluded]
+    print(f"[{site['name']}] sitemap {len(routes)} 個商品"
+          + (f"（排除海外 {len(excluded)}）" if excluded else ""))
     rows = []
     for n, route in enumerate(routes, 1):
         prod, url = load_product(opener, site, route)
         if not prod or not prod["specs"]:
             continue
 
+        if any(w in prod["title"] for w in SKIP_TITLE):
+            continue
         specs = [(name, q) for name, q in prod["specs"]
                  if not any(w in name for w in SKIP_WORDS)]
         if not specs:
@@ -320,6 +357,8 @@ def dump(keyword=None):
         for route in item_routes(opener, site["base"]):
             prod, url = load_product(opener, site, route)
             if not prod or not prod["specs"]:
+                continue
+            if any(w in prod["title"] for w in SKIP_TITLE):
                 continue
             title = short_title(prod["title"])
             specs = [(n, q) for n, q in prod["specs"]

@@ -10,65 +10,65 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:368-PD68431cb2de932-2026-09-26-2026-09-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260928
 SUMMARY:剩4 加羅湖兩天一夜健行露營｜368
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：9／26(六)-9／27(
  日)\nhttps://www.taiwan368368.com.tw/item/pd68431cb2de932\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd68431cb2de932
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-dgiyaq-bburaw-2026-09-26-2026-09-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260928
 SUMMARY:剩4 合歡四峰高山入門班兩天一夜｜368
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：9／26(六)-9／27(
  日)\nhttps://www.taiwan368368.com.tw/item/dgiyaq-bburaw\n\n名額抓取
- 時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/dgiyaq-bburaw
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD68431d2c1b3d8-2026-09-26-2026-09-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260928
 SUMMARY:剩5 松蘿湖兩天一夜豪華野營團｜368
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：9／26(六)-9／27(
  日)\nhttps://www.taiwan368368.com.tw/item/pd68431d2c1b3d8\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd68431d2c1b3d8
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f1ce45d9be-2026-10-03-2026-10-03@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:剩3 加里山一日單攻｜荒野
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／3(六)\nhttps://
- travelwildtw.com/item/PD649f1ce45d9be\n\n名額抓取時間 2026-09-14 1
- 9:27 (UTC+8)，實際以商品頁為準。
+ travelwildtw.com/item/PD649f1ce45d9be\n\n名額抓取時間 2026-09-15 1
+ 4:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f1ce45d9be
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD68431dc955b89-2026-10-03-2026-10-04@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261005
 SUMMARY:剩4 南橫三星兩天兩夜｜368
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：D0.10／2(五)_10／3
  (六)-10／4(日)\nhttps://www.taiwan368368.com.tw/item/pd68431dc955b89\
- n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為
+ n\n名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為
  準。
 URL:https://www.taiwan368368.com.tw/item/pd68431dc955b89
 CATEGORIES:登山補位,368
@@ -76,120 +76,80 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f1da753d32-2026-10-03-2026-10-03@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:剩5 高島縱走一日單攻｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／3(六)\nhttps://
- travelwildtw.com/item/PD649f1da753d32\n\n名額抓取時間 2026-09-14 1
- 9:27 (UTC+8)，實際以商品頁為準。
+ travelwildtw.com/item/PD649f1da753d32\n\n名額抓取時間 2026-09-15 1
+ 4:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f1da753d32
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:368-PD6842f74f63765-2026-10-03-2026-10-04@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-SUMMARY:剩5 雪山東峰兩天一夜登山團｜368
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／3(六)-10／4(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6842f74f63765\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6842f74f63765
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:368-PD6841f39e3ddd9-2026-10-03-2026-10-04@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-SUMMARY:剩6 眠月線：通往幽靜廢站的森林鐵道探秘之旅｜
- 368
-DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／3(六)-10／4(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6841f39e3ddd9\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:368-PD68431d2c1b3d8-2026-10-03-2026-10-04@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261005
 SUMMARY:剩6 松蘿湖兩天一夜豪華野營團｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／3(六)-10／4(
  日)\nhttps://www.taiwan368368.com.tw/item/pd68431d2c1b3d8\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd68431d2c1b3d8
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457edadaa0dd-2026-10-08-2026-10-11@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261012
 SUMMARY:剩1 戒茂斯上嘉明湖 四天 免抽籤｜荒野
 DESCRIPTION:剩 1 位｜已報名 6/7 人\n梯次：10／8(四)-10／11(
  日) *雙十節\nhttps://travelwildtw.com/item/PD6457edadaa0dd\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457edadaa0dd
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f1f46d577f-2026-10-09-2026-10-10@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261011
 SUMMARY:剩5 松蘿湖 兩天一夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／9(五)-10／10(
  六) *雙十節\nhttps://travelwildtw.com/item/PD649f1f46d577f\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f1f46d577f
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-dongyin-traditional-climbing-2026-10-09-2026-10-11@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261012
 SUMMARY:剩9 東引傳統攀登三日初階訓練｜368
 DESCRIPTION:剩 9 位｜已報名 1/10 人\n梯次：第一梯次：2026.
  10.09（五） - 10.11（日）＊10.08（四）晚上搭船／10.12（
  一）中午搭船\nhttps://www.taiwan368368.com.tw/item/dongyin-traditi
- onal-climbing\n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以
+ onal-climbing\n\n名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以
  商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/dongyin-traditional-climbing
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:368-PD6842f74f63765-2026-10-10-2026-10-11@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261012
-SUMMARY:剩1 雪山東峰兩天一夜登山團｜368
-DESCRIPTION:剩 1 位｜已報名 6/7 人\n梯次：10／10(六)-10／11(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6842f74f63765\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6842f74f63765
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:368-taiwan-shuiyang-forest-camping-tour-2026-10-10-2026-10-11@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261012
-SUMMARY:剩3 水漾森林二天一夜｜368
-DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／10(六)-10／11(
+SUMMARY:剩2 水漾森林二天一夜｜368
+DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：10／10(六)-10／11(
  日)\nhttps://www.taiwan368368.com.tw/item/taiwan-shuiyang-forest-campin
- g-tour\n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品
+ g-tour\n\n名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品
  頁為準。
 URL:https://www.taiwan368368.com.tw/item/taiwan-shuiyang-forest-camping-tour
 CATEGORIES:登山補位,368
@@ -197,170 +157,156 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f1ce45d9be-2026-10-10-2026-10-10@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:剩5 加里山一日單攻｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／10(六) *雙十
  節\nhttps://travelwildtw.com/item/PD649f1ce45d9be\n\n名額抓取時間
-  2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+  2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f1ce45d9be
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a68867b5622-2026-10-10-2026-10-10@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:剩5 西巒大山單攻｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／10(六) *雙十
  節\nhttps://travelwildtw.com/item/PD64a68867b5622\n\n名額抓取時間
-  2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+  2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a68867b5622
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-15-2026-10-16@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261017
 SUMMARY:剩7 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 7 位｜已報名 7/14 人\n梯次：10／15(四)-10／16
  (五)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD684346a209436-2026-10-16-2026-10-18@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261019
 SUMMARY:剩5 嘉明湖戒茂斯三天兩夜｜368
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／16(五)-10／18(
  日)\nhttps://www.taiwan368368.com.tw/item/pd684346a209436\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd684346a209436
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-16-2026-10-17@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261018
-SUMMARY:剩9 玉山主峰 兩天一夜｜荒野
-DESCRIPTION:剩 9 位｜已報名 5/14 人\n梯次：10／16(五)-10／17
+SUMMARY:剩7 玉山主峰 兩天一夜｜荒野
+DESCRIPTION:剩 7 位｜已報名 7/14 人\n梯次：10／16(五)-10／17
  (六)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-10-17-2026-10-19@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261020
 SUMMARY:剩2 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 2 位｜已報名 12/14 人\n梯次：10／17(六)-10／1
  9(一)\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:368-PD6842f74f63765-2026-10-17-2026-10-18@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261019
-SUMMARY:剩4 雪山東峰兩天一夜登山團｜368
-DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：10／17(六)-10／18(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6842f74f63765\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6842f74f63765
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:368-PD6841f39e3ddd9-2026-10-17-2026-10-18@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261019
-SUMMARY:剩5 眠月線：通往幽靜廢站的森林鐵道探秘之旅｜
- 368
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／17(六)-10／18(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6841f39e3ddd9\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD64a1d85e3dfd7-2026-10-17-2026-10-18@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
-SUMMARY:剩12 奇萊南華 兩天一夜｜荒野
-DESCRIPTION:剩 12 位｜已報名 2/14 人\n梯次：10／17(六)-10／1
+SUMMARY:剩10 奇萊南華 兩天一夜｜荒野
+DESCRIPTION:剩 10 位｜已報名 4/14 人\n梯次：10／17(六)-10／1
  8(日)\nhttps://travelwildtw.com/item/PD64a1d85e3dfd7\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d85e3dfd7
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-17-2026-10-18@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：10／17(六)-10／1
  8(日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-18-2026-10-19@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261020
 SUMMARY:剩5 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 9/14 人\n梯次：10／18(日)-10／19
  (一)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-10-19-2026-10-21@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261022
 SUMMARY:剩6 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 6 位｜已報名 8/14 人\n梯次：10／19(一)-21(三)
  \nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名額抓取時間 20
- 26-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 26-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-10-21-2026-10-22@hiking-ics
+DTSTAMP:20260915T065150Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261023
+SUMMARY:剩3 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／21(三)-10／22(
+ 四)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:368-jiaming-lake-cabin-trek-4d3n-2026-10-22-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩3 嘉明湖山屋四天三夜｜368
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／22(四)-10／25(
  日)\nhttps://www.taiwan368368.com.tw/item/jiaming-lake-cabin-trek-4d3n\
- n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為
+ n\n名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為
  準。
 URL:https://www.taiwan368368.com.tw/item/jiaming-lake-cabin-trek-4d3n
 CATEGORIES:登山補位,368
@@ -368,652 +314,625 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-22-2026-10-23@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261024
 SUMMARY:剩6 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 8/14 人\n梯次：10／22(四)-10／23
  (五)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-PD64a535e35ee0a-2026-10-23-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261026
-SUMMARY:剩1 嘉明湖 三天二夜 全程山屋｜荒野
-DESCRIPTION:剩 1 位｜已報名 13/14 人\n梯次：10／23(五)-10／2
- 5(日) *光復節\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名
- 額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://travelwildtw.com/item/PD64a535e35ee0a
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD6457ed3b63234-2026-10-23-2026-10-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261027
 SUMMARY:剩3 嘉明湖 四天三夜 全程山屋｜荒野
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／23(五)-10／26(
  一) *光復節\nhttps://travelwildtw.com/item/PD6457ed3b63234\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed3b63234
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD6842bad171fce-2026-10-23-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／23(五)-10／25(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-23-2026-10-24@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261025
 SUMMARY:剩7 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 7 位｜已報名 7/14 人\n梯次：10／23(五)-10／24
  (六) *光復節\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名
- 額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD697346eee70c2-2026-10-24-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩4 奇萊南華 兩天一夜｜368
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：10／24(六)-10／25(
  日)\nhttps://www.taiwan368368.com.tw/item/pd697346eee70c2\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd697346eee70c2
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-PD649f0b4a98628-2026-10-24-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261026
-SUMMARY:剩5 眠月線 兩天一夜｜荒野
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／24(六)-10／25(
- 日) *光復節\nhttps://travelwildtw.com/item/PD649f0b4a98628\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://travelwildtw.com/item/PD649f0b4a98628
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD6457ed690989e-2026-10-24-2026-10-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261027
 SUMMARY:剩6 奇萊南華 三天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／24(六)-10／26(
  一) *光復節\nhttps://travelwildtw.com/item/PD6457ed690989e\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed690989e
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ed90af42e-2026-10-24-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩6 合歡四峰兩天一夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／24(六)-10／25(
  日)\nhttps://travelwildtw.com/item/PD6457ed90af42e\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed90af42e
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-10-24-2026-10-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261027
 SUMMARY:剩6 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／24(六)-10／26(
  一) *光復節\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d85e3dfd7-2026-10-24-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩6 奇萊南華 兩天一夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 8/14 人\n梯次：10／24(六)-10／25
  (日) *光復節\nhttps://travelwildtw.com/item/PD64a1d85e3dfd7\n\n名
- 額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d85e3dfd7
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-24-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
 SUMMARY:剩7 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 7 位｜已報名 7/14 人\n梯次：10／24(六)-10／25
  (日) *光復節\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名
- 額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-10-24-2026-10-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261027
 SUMMARY:剩10 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 10 位｜已報名 4/14 人\n梯次：10／24(六)-10／2
  6(一) *光復節\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名
- 額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-10-25-2026-10-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261027
 SUMMARY:剩1 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 1 位｜已報名 6/7 人\n梯次：10／25(日)-10／26(
  一)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a68994b6aff-2026-10-25-2026-10-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:剩3 玉山主峰單攻｜荒野
-DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：10／25(日) D0.10／
+SUMMARY:剩2 玉山主峰單攻｜荒野
+DESCRIPTION:剩 2 位｜已報名 4/6 人\n梯次：10／25(日) D0.10／
  24 *光復節\nhttps://travelwildtw.com/item/PD64a68994b6aff\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a68994b6aff
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:wild-PD6457ed90af42e-2026-10-25-2026-10-26@hiking-ics
+DTSTAMP:20260915T065150Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261027
+SUMMARY:剩6 合歡四峰兩天一夜｜荒野
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／25(日)-10／26(
+ 一)\nhttps://travelwildtw.com/item/PD6457ed90af42e\n\n名額抓取時
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
+URL:https://travelwildtw.com/item/PD6457ed90af42e
+CATEGORIES:登山補位,荒野
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-10-26-2026-10-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261028
 SUMMARY:剩1 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 1 位｜已報名 6/7 人\n梯次：10／26(一)-10／27(
  二)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-10-27-2026-10-28@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261029
 SUMMARY:剩6 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／27(二)-10／28(
  三)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-28-2026-10-29@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261030
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：10／28(三)-10／2
  9(四)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-29-2026-10-30@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261031
 SUMMARY:剩11 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 11 位｜已報名 3/14 人\n梯次：10／29(四)-10／3
  0(五)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-10-30-2026-11-01@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:剩5 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：10／30(五)-11／1(
  日)\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD6842bad171fce-2026-10-30-2026-11-01@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／30(五)-11／1(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d85e3dfd7-2026-10-30-2026-10-31@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261101
 SUMMARY:剩13 奇萊南華 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：10／30(五)-10／3
  1(六)\nhttps://travelwildtw.com/item/PD64a1d85e3dfd7\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d85e3dfd7
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-10-31-2026-11-01@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:剩1 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 1 位｜已報名 6/7 人\n梯次：10／31(六)-11／1(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ecb800bd1-2026-10-31-2026-10-31@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:剩6 玉山前峰單攻｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／31(六)\nhttps:/
- /travelwildtw.com/item/PD6457ecb800bd1\n\n名額抓取時間 2026-09-14 
- 19:27 (UTC+8)，實際以商品頁為準。
+ /travelwildtw.com/item/PD6457ecb800bd1\n\n名額抓取時間 2026-09-15 
+ 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ecb800bd1
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:368-PD697346eee70c2-2026-10-31-2026-11-01@hiking-ics
+DTSTAMP:20260915T065150Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:剩6 奇萊南華 兩天一夜｜368
+DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：10／31(六)-11／1(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd697346eee70c2\n\n名額抓
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd697346eee70c2
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-10-31-2026-11-01@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：10／31(六)-11／1
  (日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD6842bad171fce-2026-11-06-2026-11-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:剩3 嘉明湖山屋三天兩夜｜368
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：11／6(五)-11／8(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-11-06-2026-11-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:剩6 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／6(五)-11／8(
  日)\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-11-06-2026-11-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:剩12 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 12 位｜已報名 2/14 人\n梯次：11／6(五)-11／8(
  日)\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-11-07-2026-11-09@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261110
 SUMMARY:剩8 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 8 位｜已報名 6/14 人\n梯次：11／7(六)-11／9(
  一)\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-07-2026-11-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：11／7(六)-11／8(
  日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d85e3dfd7-2026-11-07-2026-11-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:剩13 奇萊南華 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：11／7(六)-11／8(
  日)\nhttps://travelwildtw.com/item/PD64a1d85e3dfd7\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d85e3dfd7
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-11-08-2026-11-09@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261110
 SUMMARY:剩5 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／8(日)-11／9(
  一)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-08-2026-11-09@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261110
 SUMMARY:剩8 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 8 位｜已報名 6/14 人\n梯次：11／8(日)-11／9(
  一)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-11-10-2026-11-11@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261112
 SUMMARY:剩6 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／10(二)-11／11(
  三)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-10-2026-11-11@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261112
 SUMMARY:剩12 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 12 位｜已報名 2/14 人\n梯次：11／10(二)-11／1
  1(三)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-11-12-2026-11-14@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261115
 SUMMARY:剩5 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／12(四)-11／14(
  六)\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ed3b63234-2026-11-13-2026-11-16@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261117
 SUMMARY:剩4 嘉明湖 四天三夜 全程山屋｜荒野
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：11／13(五)-11／16(
  一)\nhttps://travelwildtw.com/item/PD6457ed3b63234\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed3b63234
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-11-14-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:剩2 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 2 位｜已報名 5/7 人\n梯次：11／14(六)-11／15(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a66e084405f-2026-11-14-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:剩5 加羅湖 兩天一夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／14(六)-11／15(
  日)\nhttps://travelwildtw.com/item/PD64a66e084405f\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a66e084405f
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:368-PD6841f39e3ddd9-2026-11-14-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-SUMMARY:剩5 眠月線：通往幽靜廢站的森林鐵道探秘之旅｜
- 368
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／14(六)-11／15(
- 日)\nhttps://www.taiwan368368.com.tw/item/pd6841f39e3ddd9\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://www.taiwan368368.com.tw/item/pd6841f39e3ddd9
-CATEGORIES:登山補位,368
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:368-PD697346eee70c2-2026-11-14-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:剩5 奇萊南華 兩天一夜｜368
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／14(六)-11／15(
  日)\nhttps://www.taiwan368368.com.tw/item/pd697346eee70c2\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd697346eee70c2
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-14-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:剩11 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 11 位｜已報名 3/14 人\n梯次：11／14(六)-11／1
  5(日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a68994b6aff-2026-11-15-2026-11-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:剩5 玉山主峰單攻｜荒野
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／15(日) D0.11／
+DESCRIPTION:剩 5 位｜已報名 1/6 人\n梯次：11／15(日) D0.11／
  14\nhttps://travelwildtw.com/item/PD64a68994b6aff\n\n名額抓取時間 
- 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a68994b6aff
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-18-2026-11-19@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：11／18(三)-11／1
  9(四)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-PD64a67e5140513-2026-11-20-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:剩2 大小霸群峰 三天三夜｜荒野
-DESCRIPTION:剩 2 位｜已報名 3/5 人\n梯次：11／20(五)-11／22(
- 日) D0.11／19\nhttps://travelwildtw.com/item/PD64a67e5140513\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://travelwildtw.com/item/PD64a67e5140513
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-11-20-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:剩5 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／20(五)-11／22(
  日)\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-PD6842bad171fce-2026-11-20-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:剩6 嘉明湖山屋三天兩夜｜368
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／20(五)-11／22(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bad171fce\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bad171fce
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-PD649f0b4a98628-2026-11-21-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:剩5 眠月線 兩天一夜｜荒野
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／21(六)-11／22(
- 日)\nhttps://travelwildtw.com/item/PD649f0b4a98628\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
-URL:https://travelwildtw.com/item/PD649f0b4a98628
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-11-21-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
-SUMMARY:剩7 玉山主峰 兩天一夜｜荒野
-DESCRIPTION:剩 7 位｜已報名 7/14 人\n梯次：11／21(六)-11／22
- (日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+SUMMARY:剩2 玉山主峰 兩天一夜｜荒野
+DESCRIPTION:剩 2 位｜已報名 12/14 人\n梯次：11／21(六)-11／2
+ 2(日)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:368-pd6842bb40785f3-2026-11-21-2026-11-22@hiking-ics
+DTSTAMP:20260915T065150Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:剩4 玉山主峰兩天一夜｜368
+DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：11／21(六)-11／22(
+ 日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
+URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
+CATEGORIES:登山補位,368
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:368-dongyin-traditional-climbing-2026-11-21-2026-11-23@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261124
 SUMMARY:剩8 東引傳統攀登三日初階訓練｜368
 DESCRIPTION:剩 8 位｜已報名 2/10 人\n梯次：第三梯次：2026.
  11.21（六） - 11.23（一）＊11.20（五）晚上搭船／11.24（
  二）中午搭船\nhttps://www.taiwan368368.com.tw/item/dongyin-traditi
- onal-climbing\n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以
+ onal-climbing\n\n名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以
  商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/dongyin-traditional-climbing
 CATEGORIES:登山補位,368
@@ -1021,169 +940,169 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a535e35ee0a-2026-11-21-2026-11-23@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261124
 SUMMARY:剩10 嘉明湖 三天二夜 全程山屋｜荒野
 DESCRIPTION:剩 10 位｜已報名 4/14 人\n梯次：11／21(六)-11／2
  3(一)\nhttps://travelwildtw.com/item/PD64a535e35ee0a\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a535e35ee0a
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d85e3dfd7-2026-11-21-2026-11-22@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:剩12 奇萊南華 兩天一夜｜荒野
 DESCRIPTION:剩 12 位｜已報名 2/14 人\n梯次：11／21(六)-11／2
  2(日)\nhttps://travelwildtw.com/item/PD64a1d85e3dfd7\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d85e3dfd7
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ed3b63234-2026-11-27-2026-11-30@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261201
 SUMMARY:剩4 嘉明湖 四天三夜 全程山屋｜荒野
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：11／27(五)-11／30(
  一)\nhttps://travelwildtw.com/item/PD6457ed3b63234\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed3b63234
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a6861a715f8-2026-11-27-2026-11-29@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
-SUMMARY:剩6 奇萊主北 三天兩夜｜荒野
-DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／27(五)-11／29(
+SUMMARY:剩5 奇萊主北 三天兩夜｜荒野
+DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／27(五)-11／29(
  日)\nhttps://travelwildtw.com/item/PD64a6861a715f8\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a6861a715f8
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:368-pd6842bb40785f3-2026-11-28-2026-11-29@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:剩5 玉山主峰兩天一夜｜368
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：11／28(六)-11／29(
  日)\nhttps://www.taiwan368368.com.tw/item/pd6842bb40785f3\n\n名額抓
- 取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://www.taiwan368368.com.tw/item/pd6842bb40785f3
 CATEGORIES:登山補位,368
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ed1d4e51d-2026-11-28-2026-11-29@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:剩6 南橫三星 兩天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／28(六)-11／29(
  日) D0.11／27\nhttps://travelwildtw.com/item/PD6457ed1d4e51d\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ed1d4e51d
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ecb800bd1-2026-11-29-2026-11-29@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:剩6 玉山前峰單攻｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：11／29(日)\nhttps:/
- /travelwildtw.com/item/PD6457ecb800bd1\n\n名額抓取時間 2026-09-14 
- 19:27 (UTC+8)，實際以商品頁為準。
+ /travelwildtw.com/item/PD6457ecb800bd1\n\n名額抓取時間 2026-09-15 
+ 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6457ecb800bd1
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-12-04-2026-12-06@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:剩5 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：12／4(五)-12／6(
  日)\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a669222841f-2026-12-04-2026-12-05@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:剩6 桃山 喀拉業山 兩天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：12／4(五)-12／5(
  六) D0.12／3\nhttps://travelwildtw.com/item/PD64a669222841f\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a669222841f
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-12-06-2026-12-08@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261209
 SUMMARY:剩4 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 4 位｜已報名 3/7 人\n梯次：12／6(日)-8(二)\nh
  ttps://travelwildtw.com/item/PD64a1d5f205a20\n\n名額抓取時間 2026-
- 09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a5376acb736-2026-12-12-2026-12-13@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
-SUMMARY:剩5 雪山主東 兩天兩夜｜荒野
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：12／12(六)-12／13(
+SUMMARY:剩3 雪山主東 兩天兩夜｜荒野
+DESCRIPTION:剩 3 位｜已報名 3/6 人\n梯次：12／12(六)-12／13(
  日) D0.12／11\nhttps://travelwildtw.com/item/PD64a5376acb736\n\n名額
- 抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a5376acb736
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-12-14-2026-12-15@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:剩13 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 13 位｜已報名 1/14 人\n梯次：12／14(一)-12／1
  5(二)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-12-24-2026-12-26@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261227
 SUMMARY:剩6 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：12／24(四)-12／26(
  六) *行憲紀念日\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n
- 名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準
+ 名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準
  。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
@@ -1191,13 +1110,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6457ed690989e-2026-12-25-2026-12-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261228
 SUMMARY:剩3 奇萊南華 三天兩夜｜荒野
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：12／25(五)-12／27(
  日) *行憲紀念日\nhttps://travelwildtw.com/item/PD6457ed690989e\n\n
- 名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準
+ 名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準
  。
 URL:https://travelwildtw.com/item/PD6457ed690989e
 CATEGORIES:登山補位,荒野
@@ -1205,81 +1124,53 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD6568c62484dd5-2026-12-25-2026-12-25@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:剩5 鳶嘴捎來 一日縱走｜荒野
 DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：12／25(五)\nhttps:/
- /travelwildtw.com/item/PD6568c62484dd5\n\n名額抓取時間 2026-09-14 
- 19:27 (UTC+8)，實際以商品頁為準。
+ /travelwildtw.com/item/PD6568c62484dd5\n\n名額抓取時間 2026-09-15 
+ 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD6568c62484dd5
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD64a1d5f205a20-2026-12-25-2026-12-27@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261228
 SUMMARY:剩6 北大武 三天兩夜｜荒野
 DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：12／25(五)-12／27(
  日) *行憲紀念日\nhttps://travelwildtw.com/item/PD64a1d5f205a20\n\n
- 名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準
+ 名額抓取時間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準
  。
 URL:https://travelwildtw.com/item/PD64a1d5f205a20
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-PD64a5376acb736-2026-12-25-2026-12-26@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261227
-SUMMARY:剩6 雪山主東 兩天兩夜｜荒野
-DESCRIPTION:剩 6 位｜已報名 1/7 人\n梯次：12／25(五)-12／26(
- 六) D0.12／24 *行憲紀念日\nhttps://travelwildtw.com/item/PD64a537
- 6acb736\n\n名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品
- 頁為準。
-URL:https://travelwildtw.com/item/PD64a5376acb736
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:wild-PD649f0b4a98628-2026-12-26-2026-12-27@hiking-ics
-DTSTAMP:20260914T112755Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261228
-SUMMARY:剩5 眠月線 兩天一夜｜荒野
-DESCRIPTION:剩 5 位｜已報名 2/7 人\n梯次：12／26(六)-12／27(
- 日) *行憲紀念日\nhttps://travelwildtw.com/item/PD649f0b4a98628\n\n
- 名額抓取時間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準
- 。
-URL:https://travelwildtw.com/item/PD649f0b4a98628
-CATEGORIES:登山補位,荒野
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:wild-PD64a6817d91d0d-2026-12-31-2027-01-03@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270104
 SUMMARY:剩3 南湖大山 四天三夜｜荒野
 DESCRIPTION:剩 3 位｜已報名 4/7 人\n梯次：12／31(四)-1／3(
  日)\nhttps://travelwildtw.com/item/PD64a6817d91d0d\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD64a6817d91d0d
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-PD649f19becf5eb-2026-12-31-2027-01-01@hiking-ics
-DTSTAMP:20260914T112755Z
+DTSTAMP:20260915T065150Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270102
 SUMMARY:剩12 玉山主峰 兩天一夜｜荒野
 DESCRIPTION:剩 12 位｜已報名 2/14 人\n梯次：12／31(四)-1／1(
  五)\nhttps://travelwildtw.com/item/PD649f19becf5eb\n\n名額抓取時
- 間 2026-09-14 19:27 (UTC+8)，實際以商品頁為準。
+ 間 2026-09-15 14:51 (UTC+8)，實際以商品頁為準。
 URL:https://travelwildtw.com/item/PD649f19becf5eb
 CATEGORIES:登山補位,荒野
 TRANSP:TRANSPARENT
